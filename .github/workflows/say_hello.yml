@@ -1,0 +1,12 @@
+# this is just to test github workflow
+
+name: testing github workflow
+on: [push]
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: running simple echo command
+        run: echo "Git hub action works"
